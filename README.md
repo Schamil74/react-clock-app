@@ -27,12 +27,11 @@ npm run build
 -   создать менеджер состояний с изначальным списком городов
 -   создать компоненту выбора часового пояса (src/components/select/select.jsx).
 -   создать компоненту часов + настройка (библиотека react-clock)
--   создать контейнер - компоненту для вышеописаных компнентов (src/components/analogClock/analogClock.jsx)
--
+-   создать контейнер - компоненту для вышеописаных компонентов (src/components/analogClock/analogClock.jsx)
 
-2. Create-react-app, redux, react-clock, momment
+2. Create-react-app, redux, react-clock, moment
 
 -   create-react-app - быстрая развертка проекта на react (использование react - требование ТЗ).
 -   redux (требование ТЗ, но можно и без него)
 -   react-clock - доступная, простая, библиотека с часами.
--   momment - библиотека для установка utc смещения. Хорошая практика для решения подобных задач. см. [статья1](https://habr.com/ru/post/242459/), [статья2](https://habr.com/ru/company/mailru/blog/438286/)
+-   moment - библиотека помогает установить utc смещения. Хорошая практика для решения подобных задач. см. [статья1](https://habr.com/ru/post/242459/), [статья2](https://habr.com/ru/company/mailru/blog/438286/)
