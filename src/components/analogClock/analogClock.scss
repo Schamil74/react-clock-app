@@ -1,0 +1,18 @@
+@import 'react-clock/dist/Clock';
+
+.analogClock {
+    &__clock {
+        margin-bottom: 20px;
+        @media screen and (max-width: 576px) {
+            margin-right: auto;
+            margin-left: auto;
+        }
+    }
+    &__time {
+        margin-bottom: 20px;
+
+        text-align: center;
+
+        font-weight: bold;
+    }
+}

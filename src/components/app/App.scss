@@ -1,0 +1,30 @@
+@import '../author/author.scss';
+@import '../container/container.scss';
+@import '../footer/footer.scss';
+@import '../header/header.scss';
+@import '../layout/layout.scss';
+@import '../main/main.scss';
+
+.app {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 100vh;
+
+    &__header {
+        flex: 0 0 80px;
+
+        height: 80px;
+    }
+
+    &__main {
+        flex: 1 1 auto;
+    }
+
+    &__footer {
+        flex: 0 0 80px;
+
+        height: 80px;
+    }
+}
